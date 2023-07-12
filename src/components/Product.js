@@ -1,8 +1,8 @@
 import React from "react";
 
-function Product({id, productName, category, price, onAddClick}) {
+function Product({productId, productName, category, price, onAddClick}) {
     const handleAddBtnClicked = e => {
-        onAddClick(id);
+        onAddClick(productId);
     };
 
     return (
